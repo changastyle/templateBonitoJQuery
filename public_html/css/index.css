@@ -1,0 +1,55 @@
+.contenedores
+{
+        border:solid 2px black;
+        box-sizing: border-box;
+        
+}
+.contenedoresInternos
+{
+        display:inline-block;
+        overflow: hidden;
+        box-sizing: border-box;
+        height: 100%;
+        position: absolute;
+}
+#contenedorPrincipal
+{
+        position: absolute;
+        left:0px;
+        top:10%;
+        width: 100%;
+        height: 80%;
+        box-sizing: border-box;
+}
+
+#contenedorIzquierdo
+{
+        //width: 5%;
+        left: 0px;
+        cursor:pointer;
+}
+#contenedorDerecho
+{
+        //width: 5%;
+        right: 0px;
+        cursor:pointer;
+}
+#contenedorMedio
+{
+        left:5%;
+        right: 5%;
+}
+#banner
+{
+        width: 100%;
+        position: absolute;
+        left:0px;
+        right: 0px;
+}
+#footer
+{
+        width: 100%;
+        position: absolute;
+        bottom: 10px;
+        left:0px;
+}
